@@ -1,0 +1,103 @@
+@media (max-width: 810px) {
+	.background__mountain {
+		height: 548px;
+	}
+	.background__opacity-block {
+		top: 203px;
+		height: 246px;
+	}
+	.background__gradient {
+		height: 598px;
+	}
+	.background__white {
+		height: 785px;
+	}
+	.background__whiteborder {
+		height: 233px;
+	}
+	.background__grey {
+		height: 667px;
+	}
+	.content {
+		width: 480px;
+		left: 50%;
+		margin-left: -240px;
+	}
+	header {
+		margin-top: 65px;
+		height: 483px;
+	}
+	header .title {
+		position: relative;
+	}
+	header .title h1 {
+		margin-left: 34%;
+	}
+	header .menu {
+		position: absolute;
+    z-index: 2;
+    top: 38px;
+    right: 116px;
+    width: 244px;
+    height: 255px;
+    background-color: rgba(59,46,67,0.5);
+    border: 1px solid black;
+    border-radius: 7px;
+    overflow: hidden;
+	}
+	header .menu__item {
+		display: block;
+	}
+	header .menu__item:not(:last-child) {
+		margin-right: 0px;
+	}
+	header .menu__item:hover {
+		background: rgba(44,35,50,0.5);
+	}
+	header .menu__link {
+    display: block;
+		width: 244px;
+    height: 40px;
+    line-height: 2;
+    text-align: center;
+  }
+  header .menu__link:last-child {
+  	height: 40.5px;
+  }
+  header .menu__link {
+  	border-top: 1px solid #513e59;
+  	border-bottom: 1px solid #36283e;
+  }
+  header .menu__link:hover {
+  	border-bottom: 1px solid #edbfff;
+  }
+	header .sliders {
+		margin-top: 90px;
+		height: 246px;
+	}
+	header .sliders__info-block {
+		padding-left: 41px;
+    padding-top: 93px;
+	}
+	header .sliders__info-block h2 {
+		font-size: 36px;
+	}
+	header .sliders__info-block h3 {
+		margin-top: 2px;
+  	font-size: 18px;
+  }
+  header .sliders__info-block p {
+		display: none;
+  }
+	header .sliders__iphone-block {
+		top: -9px;
+    right: 17px;
+    height: 290px;
+    width: 205px;
+    background: url(../img/iphone_480.png) no-repeat;
+	}
+	header nav {
+		margin-top: -16px;
+    margin-right: 192px;
+	}
+}

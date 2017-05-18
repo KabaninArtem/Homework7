@@ -136,9 +136,12 @@ header .title h1 span {
 }
 .sliders__iphone-block {
 	float: right;
-	right: 71px;
-  top: -96px;
+	height: 411px;
+	width: 278px;
+	right: 66px;
+	top: -97px;
 	position: absolute;
+	background: url(../img/iphone.png) no-repeat;
 }
 nav {
   float: right;
@@ -174,7 +177,7 @@ main .about-company__more {
 }
 main .about-company__more:first-child {
 	float: left;
-	padding-left: 63px;
+	padding-left: 64px;
 }
 main .about-company__more:nth-child(2) {
   margin-left: 109px;
@@ -243,7 +246,7 @@ main .about-company__more:first-child .excerpt {
 }
 main .blog {
 	margin-top: 102px;
-	overflow: hidden;
+	height: 384px;
 }
 main .blog__avatar {
 	position: relative;
@@ -253,7 +256,7 @@ main .blog__avatar {
   height: 271px;
   background-color: white;
 }
-main .blog__avatar a {
+main .blog__avatar span {
 	width: 49px;
   height: 49px;
   left: -25px;
@@ -268,9 +271,13 @@ main .blog__avatar h5 {
   font-size: 28px;
   letter-spacing: 0.4px;
 }
-main .blog__avatar h5 span {
+main .blog__avatar h5 .title-link {
 	margin-left: 7px;
   color: #edbfff;
+  text-decoration: none;
+}
+main .blog__avatar .title-link--hidden {
+	display: none;
 }
 main .blog__avatar p {
   width: 359px;
@@ -281,6 +288,7 @@ main .blog__avatar p {
   font-size: 19px;
   line-height: 24px;
   letter-spacing: -0.8px;
+  overflow: hidden;
 }
 main .blog__updates {
 	float: right;
@@ -348,7 +356,7 @@ main .blog nav input[type="radio"]:checked + label {
 	background: url(../img/radio-button_white.jpg) 0 0 no-repeat;
 }
 main .company-links {
-	margin-top: 66px;
+	margin-top: 25px;
 }
 main .company-links  ul {
 	display: block;
@@ -362,8 +370,8 @@ main .company-links li:nth-child(4) {
 	margin-left: 8px;
 }
 main .company-links li:nth-child(5) {
-	vertical-align: 22px;
-  margin-left: 3px;
+	vertical-align: 20px;
+  margin-left: 4px;
 }
 main .company-links li:last-child {
 	vertical-align: 2px;
@@ -372,10 +380,14 @@ main .information-block {
 	margin-top: 122px;
   height: 301px;
 }
-main .information-block__content:not(:last-child) {
+main .information-block__content:nth-child(4), 
+main .information-block__content:nth-child(5) {
+	display: none;
+}
+main .information-block__content:not(:nth-child(3)) {
 	float: left;
   width: 284px;
-  margin-right: 54px;
+  margin-right: 55px;
   overflow: hidden;
 }
 main .information-block__content h6 {
@@ -416,115 +428,28 @@ main .information-block__content .copyright-text {
 
 /*<---FOOTER--->*/
 
+footer {
+	position: relative;
+}
 footer .menu {
 	float: left;
 	margin-top: 47px;
 	font-size: 20px;
 }
-footer .menu__item:not(:last-child) {
+footer .menu__item:not(:nth-child(5)) {
 	margin-right: 40px;
 }
-@media  (max-width: 989px)  {
-	.background__opacity-block {
-		top: 255px;
-	}
-	.background__mountain {
-		height: 809px;
-	}
-	.background__gradient {
-		height: 341px;
-	}
-	.content {
-		width: 700px;
-		top: 0;
-		left: 50%;
-		margin-left: -350px;
-	}
-	.menu {
-		clear: both;
-		float: left;
-		margin-top: 29px;
-	}
-	.sliders {
-		margin-top: 130px;
-	}
-	.sliders__info-block {
-		width: 317px;
-		height: 190px;
-		overflow: hidden;
-		padding-left: 25px;
-    padding-top: 98px;
-	}
-	.sliders__info-block h2 {
-		font-size: 48px;
-	}
-	.sliders__info-block h3 {
-    margin-top: 8px;
-    font-size: 24px;
-  }
-	.sliders__info-block p {
-		width: 273px;
-		margin-top: 8px;
-		font-size: 17px;
-		line-height: 26px;
-	}
-	.sliders__iphone-block {
-		right: -2px;
-    top: -23px;
-	}
-	nav {
-		margin-top: 37px;
-		margin-right: 92px;
-	}
-	main .about-company {
-		height: 305px;
-	}
-	main .about-company__more {
-		margin-top: 40px;
-		width: 160px;
-	}
-	main .about-company__more:nth-child(2) {
-    margin-left: 92px;
+footer .menu__item-last {
+	position: absolute;
+	top: 55px;
+	right: 8px;
+	font-size: 11px;
+	letter-spacing: 0.2px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-transform: initial;
+	color: white;
 }
-	main .about-company__more:last-child {
-		margin-right: -36px;
-	}
-	main .about-company__more .sprites {
-		top: 0px;
-		left: 11px;
-	}
-	main .about-company__more:nth-child(2) .sprites {
-		width: 29px;
-    top: 0px;
-    left: -52px;
-    background: url(../img/more__sprites.png) 0 0 no-repeat;
-	}
-	main .about-company__more:nth-child(2) .sprites:hover {
-    background: url(../img/more__sprites.png) 0 -31px no-repeat;
-	}
-	main .about-company__more:last-child .sprites {
-		width: 29px;
-    top: 0px;
-    left: -52px;
-    background: url(../img/more__sprites.png) 0 0 no-repeat;
-	}
-	main .about-company__more:last-child .sprites:hover {
-    background: url(../img/more__sprites.png) 0 -31px no-repeat;
-	}
-	main .about-company__more  h4 {
-		font-size: 24px;
-	}
-	main .about-company__more p {
-		margin-top: 4px;
-		height: 142px;
-		width: 167px;
-		overflow: hidden;
-	}
-	main .about-company__more .excerpt {
-		margin-right: 13px;
-	}
-	main .about-company__more:first-child .excerpt {
-		margin-right: 13px;
-	}
-
+footer .menu__item-last span {
+	font-weight: bold;
+	color: white;
 }
