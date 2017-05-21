@@ -139,4 +139,36 @@
 		margin-top: 15px;
 		margin-right: 23px;
 	}
+	main .blog {
+		margin-top: 71px;
+    height: 716px;
+	}
+	main .blog__avatar {
+		margin-left: 45px;
+		width: 417px;
+	}
+	main .blog__avatar h5 {
+		font-size: 28px;
+	}
+	main .blog__avatar h5 .title-link {
+    display: inline;
+    margin-left: 7px;
+  }
+  main .blog__avatar p {
+  	margin-top: 15px;
+  	width: 359px;
+    height: 183px;
+  }
+  main .blog__updates {
+  	float: left;
+    margin-top: 63px;
+  	margin-left: 84px;
+  }
+  main .blog__updates__excerpt {
+  	margin-right: 2px;
+  }
+  main .company-links {
+  	margin-top: 37px;
+    margin-left: 81px;
+  }
 }
