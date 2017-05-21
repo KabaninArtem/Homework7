@@ -100,4 +100,43 @@
 		margin-top: -16px;
     margin-right: 192px;
 	}
+	main .about-company {
+		height: 599px;
+	}
+	main .about-company__more {
+		
+		height: 132px;
+		width: 393px;
+	}
+	main .about-company__more:first-child {
+		padding-left: 85px;
+	}
+	main .about-company__more:not(:first-child) {
+		float: left;
+		margin-top: 24px;
+		margin-left: 84px;
+		margin-right: 0px;
+	}
+
+	main .about-company__more:last-child {
+		margin-top: 30px;
+	}
+	main .about-company__more .sprites {
+		top: 0px;
+    left: 32px;
+	}
+	main .about-company__more:last-child .sprites {
+		top: 0px;
+    left: -52px;
+	}
+	main .about-company__more p {
+		height: 72px;
+    width: 362px;
+	}
+	main .about-company__more:first-child .excerpt,
+	.about-company__more:nth-child(2) .excerpt,
+	.about-company__more:last-child .excerpt {
+		margin-top: 15px;
+		margin-right: 23px;
+	}
 }
