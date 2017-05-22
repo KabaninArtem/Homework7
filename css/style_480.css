@@ -204,4 +204,21 @@
   	height: 100px;
   	color: #787878;
   }
+  footer {
+  	height: 200px;
+  }
+  footer .menu {
+  	margin-top: 46px;
+    margin-left: 23px;
+  }
+  footer .menu__item:not(:nth-child(5)){
+  	margin-right: 22px;
+  }
+  footer .menu__item:not(:last-child) {
+    margin-right: 20px;
+	}
+	footer .menu__item-last{
+		top: 102px;
+    right: 179px;
+	}
 }
