@@ -100,6 +100,9 @@
 		margin-top: -11px;
     margin-right: 190px;
 	}
+	main {
+		height: 2287px;
+	}
 	main .about-company {
 		height: 599px;
 	}
@@ -181,5 +184,24 @@
   }
   main .company-links li:last-child {
   	float: initial;
+  }
+  main .information-block {
+  	margin-top: 77px;
+    margin-left: 20px;
+  }
+  main .information-block__content:nth-child(3),
+  main .information-block__content:nth-child(4),
+  main .information-block__content:nth-child(5) {
+  	float: inherit;
+  	margin-right: 0px;
+		width: 460px;
+  }
+  main .information-block__content:nth-child(4),
+  main .information-block__content:nth-child(5) {
+  	margin-top: 52px;
+  }
+  main .information-block__content p {
+  	height: 100px;
+  	color: #787878;
   }
 }
