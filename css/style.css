@@ -145,23 +145,39 @@ header .title h1 span {
 }
 nav {
   float: right;
-  margin-right: 166px;
-  margin-top: 14px;
+  margin-top: 18px;
+  margin-right: 164px;
 }
-nav input[type="radio"] {
-	display: none;
-}
-nav input[type="radio"] + label {
+nav label {
 	display: inline-block;
-	cursor: pointer;
-	width: 18px;
-  height: 18px;
-  margin-right: 1px;
-  background: url(../img/radiobutton.png) 0 0 no-repeat;
+  cursor: pointer;
+  position: relative;
+  margin-right: 19px;
+  font-size: 13px;
 }
-nav input[type="radio"]:checked + label {
-	background: url(../img/radiobutton.png) 0 -18px no-repeat;
+nav input[type=radio] { 
+  display: none;
 }
+nav label:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  border-radius: 8px;
+  background-color: rgba(16,17,17,0.5);
+}
+nav input[type=radio]:checked + label:before {
+	display: block;
+  content: "\2022";
+  color: #f3f3f3;
+  font-size: 38px;
+  text-align: center;
+  line-height: 18px;
+}
+
 
 /*<---MAIN--->*/
 
@@ -290,6 +306,18 @@ main .blog__avatar p {
   letter-spacing: -0.8px;
   overflow: hidden;
 }
+main .blog__avatar nav {
+	float: left;
+  width: 84px;
+  margin-top: 48px;
+  margin-left: 173px;;
+}
+main .blog__avatar label:before {
+  background-color: rgb(255,200,255);
+}
+main .blog__avatar nav input[type="radio"]:checked + label:before {
+	color: #515151;
+}
 main .blog__updates {
 	float: right;
 	width: 450px;
@@ -342,18 +370,6 @@ main .blog__updates__excerpt {
   text-transform: uppercase;
   font-size: 20px;
   color: #454545;
-}
-main .blog nav {
-	float: left;
-	clear: both;
-  margin-top: 24px;
-  margin-left: 195px;
-}
-main .blog nav input[type="radio"] + label {
-  background: url(../img/radio-button_white.jpg) 0 -23px no-repeat;
-}
-main .blog nav input[type="radio"]:checked + label {
-	background: url(../img/radio-button_white.jpg) 0 0 no-repeat;
 }
 main .company-links {
 	margin-top: 25px;

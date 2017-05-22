@@ -55,7 +55,7 @@
 		right: 62px;
 	}
 	nav {
-		margin-top: 37px;
+		margin-top: 41px;
 		margin-right: 159px;
 	}
 	main .about-company {
@@ -133,6 +133,10 @@
     font-size: 17px;
     letter-spacing: normal;
 	}
+	main .blog__avatar nav {
+		margin-top: 67px;
+    margin-left: 116px;
+	}
 	main .blog__updates {
 		float: right;
     width: 335px;
@@ -151,10 +155,6 @@
 	main .blog__updates__excerpt {
 		margin-top: 22px;
     margin-right: 13px;
-	}
-	main .blog nav {
-	margin-top: -7px;
-  margin-left: 139px;
 	}
 	main .company-links ul {
 	margin-left: 4px;

@@ -97,14 +97,13 @@
     background: url(../img/iphone_480.png) no-repeat;
 	}
 	header nav {
-		margin-top: -16px;
-    margin-right: 192px;
+		margin-top: -11px;
+    margin-right: 190px;
 	}
 	main .about-company {
 		height: 599px;
 	}
 	main .about-company__more {
-		
 		height: 132px;
 		width: 393px;
 	}
@@ -159,6 +158,10 @@
   	width: 359px;
     height: 183px;
   }
+  main .blog__avatar nav {
+  	margin-top: 47px;
+  	margin-left: 163px;
+  }
   main .blog__updates {
   	float: left;
     margin-top: 63px;
@@ -168,7 +171,15 @@
   	margin-right: 2px;
   }
   main .company-links {
+  	height: 196px;
   	margin-top: 37px;
     margin-left: 81px;
+  }
+  main .company-links li:nth-child(4) {
+    margin-top: 23px;
+  	margin-left: -16px;
+  }
+  main .company-links li:last-child {
+  	float: initial;
   }
 }
