@@ -173,4 +173,11 @@
     margin-right: -17px;
     margin-top: 40px;
    }
+  footer .menu__item {
+  	display: none;
+  }
+  footer .menu__item-last {
+    top: 41px;
+    right: 101px;
+	}
 }
