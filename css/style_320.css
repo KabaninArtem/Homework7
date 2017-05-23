@@ -59,4 +59,33 @@
 		margin-top: -14px;
     margin-right: 111px;
 	}
+	main .about-company__more {
+		margin-top: 70px;
+		width: 212px;
+	}
+	main .about-company__more:first-child {
+		padding-left: 83px;
+	}
+	main .about-company__more:nth-child(2) {
+		margin-top: 26px;
+	}
+	main .about-company__more:last-child {
+    margin-top: 41px;
+	}
+	main .about-company__more .sprites {
+		left: 30px;
+	}
+	main .about-company__more:nth-child(2) .sprites {
+		top: 0px;
+    left: -54px;
+	}
+	main .about-company__more p {
+		width: 200px;
+		font-family: 'MyriadProRegular', Arial, sans-serif;
+		color: white;
+	}
+	main .about-company__more:first-child .excerpt, 
+	main .about-company__more:nth-child(2) .excerpt, 
+	main .about-company__more:last-child .excerpt {
+		margin-right: 1px;
 }
