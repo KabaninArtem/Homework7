@@ -1,0 +1,21 @@
+@media (max-width: 496px) {
+	.background__mountain {
+		height: 516px;
+	}
+	.background__opacity-block {
+		display: none;
+	}
+	.background__gradient {
+		height: 597px;
+	}
+	.background__white {
+		height: 786px;
+	}
+	.background__whiteborder {
+		height: 422px;
+	}
+	.background__grey {
+		display: none;
+	}
+	
+}
