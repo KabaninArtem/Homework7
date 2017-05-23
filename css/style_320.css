@@ -17,5 +17,46 @@
 	.background__grey {
 		display: none;
 	}
-	
+	.content {
+		width: 320px;
+		top: 0;
+		left: 50%;
+		margin-left: -160px;
+	}
+	header {
+		height: 452px;
+	}
+	header .title h1 {
+		margin-left: 26%; 
+	}
+	header .menu {
+		right: -59px;
+		background-color: rgba(59,46,67,0);
+		border: none;
+	}
+	header .menu__item:not(:first-child) {
+		display: none;
+	}
+	header .menu__item:hover {
+		background: rgba(44,35,50,0);
+	}
+	header .menu__link {
+		width: 49px;
+		border: none;
+	}
+	header .menu__link:hover {
+		border-bottom: 2px solid #edbfff;
+	}
+	header .sliders__info-block {
+		width: 232px;
+    height: 65px;
+		padding-left: 64px;
+	}
+	header .sliders__iphone-block {
+		display: none;
+	}
+	header nav {
+		margin-top: -14px;
+    margin-right: 111px;
+	}
 }
